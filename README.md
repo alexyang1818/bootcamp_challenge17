@@ -19,18 +19,25 @@ Based on the same dataset and preprocessing methods, six models using different 
 |
 
 Example of the results taken as screenshots for the Easy Ensemble AdaBoost Classifier technique is shown in the following figures:
+
 - Easy Ensemble AdaBoost Classifier Balanced Accuracy Score
+
 ![Balanced Accuracy Score](images/easy_ensemble_classifier_balanced_accuracy_score.png)
+
 - Easy Ensemble AdaBoost Classifier Confusion Matrix
+
 ![Confusion Matrix](images/easy_ensemble_classifier_confusion_matrix.png)
+
 - Easy Ensemble AdaBoost Classifier Classification Report
+
 ![Classification Report](images/easy_ensemble_classifier_classification_report.png)
+
 
 ## Summary
 
-Among all the six models, the Easy Ensemble AdaBoost Classifier has the best performance on all the aspects. Its overall accuracy achieved 0.93 and its recall/sensitivity for "high risk" applications achieved 0.91, which means only 9% of the "high risk" applications will be mistaken as "low risk." Therefore, it demonstrates a good protection against credit risks. Although the model's precision only achieved 0.075, which means 92.5% of applications that are classified as "high risk" might be actually "low risk", this type of errors can probably be corrected with supplemental documents to support the loan application. 
+Among all the six models, the **Easy Ensemble AdaBoost Classifier** has the best performance on all the aspects. Its overall accuracy achieved 0.93 and its recall/sensitivity for "high risk" applications achieved 0.91, which means only 9% of the "high risk" applications will be mistaken as "low risk." Therefore, it demonstrates a good protection against credit risks. Although the model's precision only achieved 0.075, which means 92.5% of applications that are classified as "high risk" might be actually "low risk", this type of errors can probably be corrected with supplemental documents to support the loan application. 
 
-In summary, the Easy Ensemble AdaBoost Classifier model can be used to identify and prevent high risk applications.
+In summary, the **Easy Ensemble AdaBoost Classifier** model can be used to identify and prevent high risk applications.
 
 
 
